@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DBEquipos</string>
+    <string name="action_settings">Settings</string>
+    <string name="registro">REGISTRO</string>
+    <string name="nombre">Nombre</string>
+    <string name="liga">Liga</string>
+    <string name="dt">Nombre DT</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string name="mensaje_error_nombre">Digite Nombre del equipo</string>
+    <string name="mensaje_error_liga">Digite Liga del equipo</string>
+    <string name="mensaje_error_dt">Digite DT del equipo</string>
+
+    <string name="mensaje_error_mj">Digite Mejor Jugador del equipo</string>
+    <string name="mensaje_error_estadio">Digite Estadio del equipo</string>
+    <string name="mensaje_error_apodo">Digite Apodo del equipo</string>
+    <string name="mensaje_exitoso_guardar">Equipo Guardado Exitosamente!!</string>
+    <string name="mj">Mejor Jugador</string>
+    <string name="estrellas">N° Estrellas</string>
+    <string name="estadio">Nombre Estadio</string>
+    <string name="apodo">Apodo</string>
+</resources>
