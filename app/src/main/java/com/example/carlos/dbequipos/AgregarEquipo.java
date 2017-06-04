@@ -113,6 +113,7 @@ public class AgregarEquipo extends AppCompatActivity {
             Snackbar.make(v,getResources().getString(R.string.mensaje_exitoso_guardar),Snackbar.LENGTH_SHORT).show();
             guardado= true;
             limpiar();
+
         }
     }
 

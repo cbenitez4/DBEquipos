@@ -11,8 +11,6 @@ import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
 public class DetalleEquipo extends AppCompatActivity {
     private CollapsingToolbarLayout collapsingToolbarLayout;
     private Equipo equipo;
@@ -56,10 +54,7 @@ public class DetalleEquipo extends AppCompatActivity {
     private void setValores() {
         collapsingToolbarLayout.setTitle(equipo.getNombre() + " " + equipo.getLiga());
 
-        Picasso.with(getApplicationContext())
-                .load(equipo.getFoto())
-                .into(foto);
-
+        foto.setImageResource(Integer.parseInt(equipo.getFoto()));
         dtdetalle.setText(equipo.getDt());
         mjdetalle.setText(equipo.getMj());
         estadiodetalle.setText(equipo.getEstadio());

@@ -32,7 +32,6 @@ public class AdaptadorEquipo extends RecyclerView.Adapter<AdaptadorEquipo.Equipo
     public void onBindViewHolder(AdaptadorEquipo.EquipoViewHolder holder, int position) {
             final Equipo p = equipos.get(position);
         holder.foto.setImageResource(Integer.parseInt(p.getFoto()));
-        //Picasso.with(holder.view.getContext()).load(p.getFoto()).into(holder.foto);
 
         holder.nombre.setText(p.getNombre());
         holder.liga.setText(p.getLiga());
